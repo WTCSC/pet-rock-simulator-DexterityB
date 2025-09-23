@@ -153,10 +153,10 @@ while health > 0 and trauma < 3:
         type(buffer)
         exit()
     if cleanliness < 1:
-        buffer = name + " gets overcome by dirtiness"
-        rock("dead")
+        buffer = name + " is extremely dirty and takes damage"
+        rock("dirty")
         type(buffer)
-        exit()
+        health -= 1
 
     print(f"Health: {health}, Hunger: {hunger}, Tiredness: {tiredness}, Cleanliness: {cleanliness}, Trauma: {trauma}\n")
     type("Time passes\n")
