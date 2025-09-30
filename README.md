@@ -1,4 +1,4 @@
-# Life Decision Simulator
+# Pet Rock Simulator
 
 This project is a simulator where you take care of a pet rock, that has its needs constantly updated. Your goal is to make sure the rock stays alive and healthy.
 
